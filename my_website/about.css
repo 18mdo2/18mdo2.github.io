@@ -1,31 +1,124 @@
-body{
-    background-image: url("images/bckgrnd.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
+*{
+    margin: 0;
 }
-#a1{
-    right:0;
-    top:100;
+html, body{
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 20px;
+}
+nav{
+    opacity: 0.6;
     position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    z-index: 99;
+    text-align: center;
 }
-#a2{
-    right:0;
-    top:233;
-    position: fixed;
+nav:hover{
+    opacity: 0.95;
 }
-#a3{
-    right:0;
-    top:366;
-    position: fixed;
+.nav{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    font-size: 30px
 }
-div{
-    margin: 0px 125px;
-    padding: 25px;
-    background-color: rgb(246,233,255);
+.nav:hover{
+    background-color:#444;
 }
-.rightlink{
- opacity: 0.5;
+.nav:active{
+    background-color:#ffffff;
+    color: black;
 }
-.rightlink:hover {
-    opacity: 1.0;
+.sect{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed
+}
+.subSection{
+    height: 50%;
+    background-color: #ffffff;
+}
+.sectOne{
+    background-image: url("images/profilepic.jpg");
+}
+.sectTwo{
+    background-image: url("images/schedule.jpg");
+}
+.sectThree{
+    background-image: url("images/hobbies.jpg");
+}
+.sectFour{
+    background-image: url("images/music.jpg");
+}
+.sectFive{
+    background-image: url("images/quotable.jpg");
+}
+.sectp{
+    margin: 2vh;
+    font-size: 4vh;
+    text-align: justify;
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   line-height: 100%;
+}
+
+.secth{
+    margin: 2vh 2vh 0vh 2vh;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 5vh;
+}
+ul{
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+table, td, th{
+    /*border: solid*/
+    border-collapse: collapse
+}
+tr{
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold
+}
+table { width: 90%;
+height: 60%;
+table-layout: fixed;
+ margin-left:auto; 
+    margin-right:auto;
+}
+th{
+    color: #ffffff;
+    background-color: black;
+}
+#aztec{
+    height: 2.5vh;
+}
+.tdo{
+    background-color: #d1d1d1
+}
+#qh1{
+    font-size: 4vh;
+    margin: 2vh;
+}
+#qp{
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-left: 16vh;
+    font-family: 'Meddon', cursive;
+    font-style: italic;
+    color: #ffffff;
 }
